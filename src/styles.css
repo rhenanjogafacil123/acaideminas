@@ -120,3 +120,6 @@ body{margin:0}button,a,input,textarea,select{touch-action:manipulation}button{cu
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 .product-photo{height:210px;background:#fff3a5;display:flex;align-items:center;justify-content:center;overflow:hidden}.product-photo img{width:100%;height:100%;object-fit:cover}.actual-thumb{flex-shrink:0;background-repeat:no-repeat}
+
+/* Off-screen product placeholders must not widen the mobile grid. */
+#cardapio .grid > [style*="content-visibility"] { min-width: 0; contain-intrinsic-width: 0; }
