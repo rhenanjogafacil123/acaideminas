@@ -105,7 +105,7 @@
   .minas-hero-price { margin-top: 12px; font-size: 11px; }
   .minas-hero-art { width: 100%; height: clamp(210px,32svh,300px); flex: none; }
   .minas-hero-art::after { background: linear-gradient(180deg,#510568 0%,rgba(81,5,104,0) 20%); }
-  .minas-hero-art img { right: 50%; transform: translateX(68%); }
+  .minas-hero-art img { right: 0; transform: none; }
 }
 @media (max-width: 700px) and (max-height: 720px) {
   .minas-hero-copy { padding-top: 22px; }
