@@ -1,4 +1,4 @@
-# Açaí Bom Gosto
+# Açaí de Minas
 
 Cardápio em React/TanStack Start adaptado do template fornecido.
 

@@ -15,7 +15,7 @@ const LazyCartDrawer = lazy(async () => {
   return { default: module.CartDrawer };
 });
 
-const title="Açaí Bom Gosto | Cardápio e pedidos";
+const title="Açaí de Minas | Cardápio e pedidos";
 const description="Açaí, potes, vitaminas, frutas e complementos. Monte seu pedido e finalize pelo WhatsApp.";
 export const Route=createFileRoute("/")({head:()=>({meta:[{title},{name:"description",content:description},{property:"og:title",content:title},{property:"og:description",content:description},{property:"og:type",content:"restaurant"},{name:"twitter:card",content:"summary_large_image"}]}),component:Index});
 

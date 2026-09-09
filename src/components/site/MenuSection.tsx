@@ -27,7 +27,7 @@ export function MenuSection() {
     <section id="cardapio" className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-24">
       <div className="mb-8 text-center">
         <p className="text-xs font-semibold uppercase tracking-[0.28em] text-secondary">ESCOLHA SEU FAVORITO</p>
-        <h2 className="mt-3 font-display text-3xl font-semibold text-foreground sm:text-4xl">Seu momento de Bom Gosto.</h2>
+        <h2 className="mt-3 font-display text-3xl font-semibold text-foreground sm:text-4xl">Seu momento de açaí.</h2>
         <p className="mx-auto mt-3 max-w-lg text-sm text-muted-foreground">
           Açaí, frutas e complementos. Escolha, adicione e peça pelo WhatsApp.
         </p>
