@@ -1,1 +1,5 @@
-export function Footer(){return <footer className="brand-footer"><a className="wordmark" href="#topo"><span>Açaí</span><strong>DE MINAS</strong></a><p>Açaí de Minas. Sabor em cada momento.</p><a href="#cardapio">Ver cardápio</a><small>© {new Date().getFullYear()} Açaí de Minas</small></footer>}
+const developerWhatsappMessage =
+  "Olá, Rhenan! 👋 Vi o site da Bora de Batata e curti muito como ele transforma o cardápio em uma experiência mais profissional e fácil de comprar. Na hora pensei no meu negócio. Quero ver como ficaria uma versão com a identidade da minha empresa e o que daria para melhorar para gerar mais pedidos sem depender tanto de conversa no WhatsApp. Você consegue me mostrar uma ideia e me explicar como funciona e os valores? Se eu gostar da proposta, tenho interesse em colocar isso para rodar.";
+const developerWhatsappUrl = `https://wa.me/5521973152056?text=${encodeURIComponent(developerWhatsappMessage)}`;
+
+export function Footer(){return <footer className="brand-footer"><a className="wordmark" href="#topo"><span>Açaí</span><strong>DE MINAS</strong></a><p>Açaí de Minas. Sabor em cada momento.</p><a href="#cardapio">Ver cardápio</a><a href={developerWhatsappUrl} target="_blank" rel="noopener noreferrer">Desenvolvido por Rhenan • WhatsApp</a><small>© {new Date().getFullYear()} Açaí de Minas</small></footer>}
