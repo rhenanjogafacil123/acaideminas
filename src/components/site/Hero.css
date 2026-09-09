@@ -1,6 +1,6 @@
 .acai-hero {
   position: relative;
-  min-height: clamp(620px, 46vw, 780px);
+  min-height: clamp(500px, 35vw, 570px);
   overflow: hidden;
   color: #fff;
   background-image: url("/açai de mina HERO WEBP.webp");
@@ -22,19 +22,19 @@
 .hero-copy {
   position: relative;
   z-index: 2;
-  width: min(48%, 760px);
-  padding: clamp(52px, 4vw, 76px) 0 132px max(5%, calc((100vw - 1500px) / 2));
+  width: min(46%, 660px);
+  padding: clamp(32px, 2.7vw, 46px) 0 96px max(4%, calc((100vw - 1400px) / 2));
 }
 
 .hero-badge {
   width: fit-content;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
+  gap: 8px;
+  padding: 8px 16px;
   border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 999px;
-  font-size: clamp(12px, 1vw, 16px);
+  font-size: clamp(11px, 0.85vw, 14px);
   line-height: 1;
   font-weight: 900;
   letter-spacing: 0.02em;
@@ -42,7 +42,8 @@
   background: rgba(86, 5, 114, 0.28);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  margin-bottom: clamp(20px, 2.2vw, 34px);
+  margin-bottom: clamp(16px, 1.5vw, 22px);
+  white-space: nowrap;
 }
 
 .hero-badge svg,
@@ -52,13 +53,13 @@
 
 .hero-copy h1 {
   margin: 0;
-  max-width: 760px;
-  font-size: clamp(48px, 4.6vw, 78px);
+  max-width: 620px;
+  font-size: clamp(40px, 3.6vw, 58px);
   line-height: 0.98;
-  letter-spacing: -0.055em;
+  letter-spacing: -0.045em;
   font-weight: 950 !important;
-  text-wrap: balance;
   text-shadow: 0 5px 16px rgba(43, 0, 62, 0.2);
+  white-space: nowrap;
 }
 
 .hero-copy h1 em {
@@ -67,18 +68,18 @@
 }
 
 .hero-description {
-  margin: clamp(18px, 1.7vw, 28px) 0 0;
-  max-width: 690px;
+  margin: clamp(14px, 1.15vw, 18px) 0 0;
+  max-width: 590px;
   color: #fff;
-  font-size: clamp(15px, 1.15vw, 19px);
-  line-height: 1.38;
+  font-size: clamp(13px, 0.95vw, 16px);
+  line-height: 1.32;
   font-weight: 600;
   text-shadow: 0 2px 8px rgba(43, 0, 62, 0.2);
 }
 
 .hero-description strong {
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 3px;
   color: #ffdd19;
   font-weight: 900;
 }
@@ -86,22 +87,24 @@
 .hero-benefits {
   display: flex;
   align-items: center;
-  gap: clamp(18px, 2vw, 36px);
-  margin-top: clamp(20px, 2vw, 32px);
+  gap: clamp(12px, 1.4vw, 22px);
+  margin-top: clamp(14px, 1.3vw, 19px);
   flex-wrap: wrap;
 }
 
 .hero-benefits span {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: clamp(11px, 0.85vw, 14px);
-  line-height: 1.15;
+  gap: 7px;
+  font-size: clamp(10px, 0.72vw, 12px);
+  line-height: 1.08;
   font-weight: 800;
   color: #fff;
 }
 
 .hero-benefits svg {
+  width: 20px;
+  height: 20px;
   flex: 0 0 auto;
   color: #ffdd19;
   stroke-width: 2.2;
@@ -110,8 +113,8 @@
 .hero-actions {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-top: clamp(22px, 2vw, 34px);
+  gap: 12px;
+  margin-top: clamp(16px, 1.4vw, 21px);
 }
 
 .hero-primary-button,
@@ -119,25 +122,25 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 13px;
-  min-height: 58px;
+  gap: 10px;
+  min-height: 48px;
   border-radius: 999px;
-  padding: 0 29px;
+  padding: 0 21px;
   text-decoration: none;
-  font-size: clamp(16px, 1.25vw, 21px);
+  font-size: clamp(14px, 1vw, 17px);
   font-weight: 950;
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 
 .hero-primary-button {
-  min-width: 270px;
+  min-width: 205px;
   color: #351044;
   background: #ffdd19;
-  box-shadow: 0 14px 34px rgba(255, 221, 25, 0.24);
+  box-shadow: 0 12px 28px rgba(255, 221, 25, 0.22);
 }
 
 .hero-secondary-button {
-  min-width: 235px;
+  min-width: 175px;
   color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.9);
   background: rgba(91, 7, 119, 0.35);
@@ -151,7 +154,7 @@
 }
 
 .hero-primary-button:hover {
-  box-shadow: 0 18px 38px rgba(255, 221, 25, 0.34);
+  box-shadow: 0 16px 32px rgba(255, 221, 25, 0.32);
 }
 
 .hero-secondary-button:hover {
@@ -162,10 +165,10 @@
   display: inline-flex;
   position: relative;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 17px;
   color: #fff;
   font-family: "Nunito", sans-serif;
-  font-size: clamp(20px, 1.8vw, 30px);
+  font-size: clamp(17px, 1.35vw, 22px);
   line-height: 1;
   font-weight: 800;
   font-style: italic;
@@ -175,10 +178,10 @@
 .handwritten::after {
   content: "";
   position: absolute;
-  left: 10px;
-  right: 18px;
-  bottom: -11px;
-  height: 5px;
+  left: 8px;
+  right: 14px;
+  bottom: -8px;
+  height: 4px;
   border-radius: 999px;
   background: #ffdd19;
   transform: rotate(-1deg);
@@ -187,11 +190,11 @@
 .hero-art-note {
   position: absolute;
   z-index: 2;
-  top: 52px;
-  right: 3.6%;
+  top: 34px;
+  right: 3.4%;
   color: #3e0757;
   font-family: "Nunito", sans-serif;
-  font-size: clamp(22px, 2vw, 34px);
+  font-size: clamp(18px, 1.55vw, 27px);
   line-height: 1.02;
   font-weight: 950;
   font-style: italic;
@@ -201,15 +204,17 @@
 
 .hero-art-note svg {
   display: block;
-  margin: 7px auto 0;
+  width: 25px;
+  height: 25px;
+  margin: 5px auto 0;
 }
 
 .hero-price-badge {
   position: absolute;
   z-index: 2;
-  right: 3.8%;
-  top: 37%;
-  width: clamp(150px, 13vw, 210px);
+  right: 3.5%;
+  top: 39%;
+  width: clamp(112px, 9.5vw, 150px);
   aspect-ratio: 1 / 0.9;
   border-radius: 50%;
   display: flex;
@@ -219,22 +224,22 @@
   color: #fff;
   text-align: center;
   background: radial-gradient(circle at 36% 27%, #8923a7 0%, #5d0a7e 64%, #45045f 100%);
-  border: 5px solid rgba(120, 16, 151, 0.8);
-  box-shadow: 0 18px 34px rgba(74, 0, 100, 0.24);
+  border: 4px solid rgba(120, 16, 151, 0.8);
+  box-shadow: 0 14px 28px rgba(74, 0, 100, 0.22);
   transform: rotate(-4deg);
 }
 
 .hero-price-badge small {
-  font-size: clamp(11px, 0.85vw, 14px);
+  font-size: clamp(9px, 0.7vw, 11px);
   font-weight: 900;
   letter-spacing: 0.04em;
 }
 
 .hero-price-badge strong {
   display: block;
-  margin-top: 5px;
+  margin-top: 3px;
   color: #fff;
-  font-size: clamp(34px, 3vw, 52px);
+  font-size: clamp(27px, 2.2vw, 38px);
   line-height: 0.95;
   font-weight: 950;
   font-style: italic;
@@ -242,9 +247,9 @@
 
 .hero-price-badge::after {
   content: "";
-  width: 70%;
-  height: 5px;
-  margin-top: 10px;
+  width: 68%;
+  height: 4px;
+  margin-top: 7px;
   border-radius: 999px;
   background: #ffdd19;
   transform: rotate(-7deg);
@@ -254,12 +259,12 @@
   position: absolute;
   z-index: 2;
   right: 1.2%;
-  bottom: 58px;
-  width: 150px;
-  padding: 24px 18px 20px;
+  bottom: 48px;
+  width: 120px;
+  padding: 18px 14px 16px;
   color: #fff;
   font-family: "Nunito", sans-serif;
-  font-size: clamp(19px, 1.6vw, 27px);
+  font-size: clamp(16px, 1.2vw, 21px);
   line-height: 0.95;
   font-style: italic;
   font-weight: 850;
@@ -271,29 +276,31 @@
 
 .hero-life-note strong {
   color: #ffdd19;
-  font-size: 1.22em;
+  font-size: 1.18em;
 }
 
 .hero-life-note svg {
   display: block;
-  margin: 8px auto 0;
+  width: 23px;
+  height: 23px;
+  margin: 6px auto 0;
 }
 
 .hero-size-strip {
   position: absolute;
   z-index: 3;
-  left: 32%;
-  right: 16%;
-  bottom: 18px;
-  min-height: 78px;
+  left: 35%;
+  right: 15%;
+  bottom: 13px;
+  min-height: 60px;
   display: grid;
-  grid-template-columns: 1.35fr repeat(3, 0.8fr) 1.1fr;
+  grid-template-columns: 1.3fr repeat(3, 0.78fr) 1fr;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.32);
   border-radius: 999px;
   color: #fff;
   background: linear-gradient(90deg, rgba(63, 6, 84, 0.96), rgba(73, 10, 77, 0.93), rgba(91, 50, 40, 0.94));
-  box-shadow: 0 18px 38px rgba(35, 0, 45, 0.28);
+  box-shadow: 0 14px 30px rgba(35, 0, 45, 0.24);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
   overflow: hidden;
@@ -305,9 +312,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2px;
-  min-height: 48px;
-  padding: 0 14px;
+  gap: 1px;
+  min-height: 40px;
+  padding: 0 10px;
   border-left: 1px solid rgba(255, 255, 255, 0.18);
 }
 
@@ -316,30 +323,32 @@
 }
 
 .hero-size-strip strong {
-  font-size: clamp(14px, 1.1vw, 18px);
+  font-size: clamp(11px, 0.85vw, 14px);
   line-height: 1.05;
   font-weight: 950;
 }
 
 .hero-size-strip span {
-  margin-top: 3px;
-  font-size: clamp(11px, 0.9vw, 14px);
+  margin-top: 2px;
+  font-size: clamp(9px, 0.7vw, 11px);
   color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-size-label {
   flex-direction: row !important;
-  gap: 12px !important;
+  gap: 9px !important;
 }
 
 .hero-size-label svg,
 .hero-size-potes svg {
+  width: 24px;
+  height: 24px;
   flex: 0 0 auto;
 }
 
 .hero-size-potes {
   flex-direction: row !important;
-  gap: 12px !important;
+  gap: 9px !important;
 }
 
 .hero-size-potes p {
@@ -350,26 +359,30 @@
 
 @media (max-width: 1180px) {
   .hero-copy {
-    width: 53%;
-    padding-left: 4.5%;
+    width: 48%;
+    padding-left: 3.6%;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(38px, 4vw, 52px);
   }
 
   .hero-benefits {
-    gap: 16px;
+    gap: 12px;
   }
 
   .hero-actions {
-    gap: 12px;
+    gap: 10px;
   }
 
   .hero-primary-button,
   .hero-secondary-button {
     min-width: auto;
-    padding-inline: 22px;
+    padding-inline: 18px;
   }
 
   .hero-size-strip {
-    left: 28%;
+    left: 32%;
     right: 10%;
   }
 
@@ -380,7 +393,7 @@
 
 @media (max-width: 900px) {
   .acai-hero {
-    min-height: 780px;
+    min-height: 700px;
     background-size: auto 100%;
     background-position: 59% center;
   }
@@ -391,17 +404,18 @@
 
   .hero-copy {
     width: auto;
-    padding: 38px 24px 150px;
-    max-width: 640px;
+    padding: 34px 24px 135px;
+    max-width: 610px;
   }
 
   .hero-copy h1 {
-    font-size: clamp(44px, 9vw, 66px);
-    max-width: 580px;
+    max-width: 560px;
+    font-size: clamp(40px, 8vw, 58px);
+    white-space: normal;
   }
 
   .hero-description {
-    max-width: 560px;
+    max-width: 540px;
   }
 
   .hero-desktop-break {
@@ -409,7 +423,7 @@
   }
 
   .hero-benefits {
-    max-width: 520px;
+    max-width: 500px;
   }
 
   .hero-art-note,
@@ -421,13 +435,13 @@
   .hero-size-strip {
     left: 22px;
     right: 22px;
-    bottom: 20px;
+    bottom: 18px;
   }
 }
 
 @media (max-width: 700px) {
   .acai-hero {
-    min-height: 930px;
+    min-height: 840px;
     border-radius: 0 0 34px 34px;
     background-size: auto 100%;
     background-position: 61% center;
@@ -444,75 +458,76 @@
 
   .hero-copy {
     width: auto;
-    padding: 32px 22px 170px;
+    padding: 28px 22px 155px;
   }
 
   .hero-badge {
-    padding: 9px 14px;
-    font-size: 11px;
-    margin-bottom: 20px;
+    padding: 8px 12px;
+    font-size: 10px;
+    margin-bottom: 17px;
   }
 
   .hero-copy h1 {
-    font-size: clamp(42px, 13vw, 58px);
+    font-size: clamp(38px, 12vw, 52px);
     line-height: 0.98;
+    white-space: normal;
   }
 
   .hero-description {
-    margin-top: 17px;
-    font-size: 15px;
-    line-height: 1.38;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 1.35;
   }
 
   .hero-benefits {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px 10px;
-    margin-top: 20px;
+    gap: 12px 8px;
+    margin-top: 17px;
   }
 
   .hero-benefits span {
-    font-size: 11px;
-    gap: 8px;
+    font-size: 10px;
+    gap: 7px;
   }
 
   .hero-benefits svg {
-    width: 21px;
-    height: 21px;
+    width: 19px;
+    height: 19px;
   }
 
   .hero-actions {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
-    margin-top: 22px;
+    gap: 9px;
+    margin-top: 18px;
   }
 
   .hero-primary-button,
   .hero-secondary-button {
     width: 100%;
-    min-height: 54px;
+    min-height: 50px;
     box-sizing: border-box;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .handwritten {
-    font-size: 20px;
-    margin-top: 22px;
+    font-size: 18px;
+    margin-top: 18px;
   }
 
   .hero-size-strip {
     left: 14px;
     right: 14px;
-    bottom: 16px;
-    min-height: 112px;
+    bottom: 14px;
+    min-height: 104px;
     grid-template-columns: repeat(4, 1fr);
-    border-radius: 26px;
+    border-radius: 24px;
   }
 
   .hero-size-strip > div {
-    padding: 10px 5px;
-    min-height: 46px;
+    padding: 8px 4px;
+    min-height: 42px;
   }
 
   .hero-size-label {
@@ -520,19 +535,19 @@
     border-left: 0 !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     flex-direction: row !important;
-    min-height: 42px !important;
+    min-height: 38px !important;
   }
 
   .hero-size-strip strong {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hero-size-strip span {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .hero-size-potes {
-    gap: 5px !important;
+    gap: 4px !important;
   }
 
   .hero-size-potes svg {
