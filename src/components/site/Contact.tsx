@@ -1,0 +1,2 @@
+import {business} from "@/data/business";
+export function Contact(){return <section id="contato" className="brand-contact"><p className="eyebrow">VAMOS CONVERSAR?</p><h2>Bom Gosto também no atendimento.</h2><p>Consulte sabores, disponibilidade e condições de entrega.</p>{business.whatsapp?<a className="whatsapp-button" target="_blank" rel="noreferrer" href={`https://wa.me/${business.whatsapp}`}>Falar pelo WhatsApp</a>:<p>Contato da loja em atualização.</p>}</section>}

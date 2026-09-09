@@ -1,0 +1,3 @@
+/** Contato oficial: preencher somente com o número confirmado pela loja. */
+export const business = {name:"Açaí Bom Gosto",tagline:"Mais que açaí, é Bom Gosto!",rating:0,reviews:0,city:"",address:"A combinar com a loja",hours:"Consulte pelo WhatsApp",phone:"",phoneHref:"",whatsapp:"",instagram:"",instagramUrl:"",mapsUrl:"",services:["Pedidos pelo WhatsApp"],siteUsageFee:0,deliveryPricing:{amount:null as number|null,everyKm:1.5,calculation:"blocks" as "blocks"|"proportional",minimumFee:0,maximumDistanceKm:null as number|null}} as const;
+export const brl=(v:number)=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});

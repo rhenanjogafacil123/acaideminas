@@ -1,0 +1,1 @@
+export function Footer(){return <footer className="brand-footer"><a className="wordmark" href="#topo"><span>Açaí</span><strong>BOM GOSTO</strong></a><p>Mais que açaí, é Bom Gosto sempre!</p><a href="#cardapio">Ver cardápio</a><small>© {new Date().getFullYear()} Açaí Bom Gosto</small></footer>}
