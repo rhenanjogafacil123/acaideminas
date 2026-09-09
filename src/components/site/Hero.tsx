@@ -28,7 +28,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-description">
-          Açaí cremoso, gelado e feito com ingredientes selecionados<br className="hero-desktop-break" />
+          Açaí cremoso, gelado e feito com ingredientes selecionados{" "}
           para deixar seu dia mais leve e muito mais gostoso.<br />
           <strong>Monte do seu jeito e peça online em poucos cliques!</strong>
         </p>

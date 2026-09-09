@@ -574,7 +574,7 @@
   border-radius: 0 0 38px 0;
 }
 .acai-hero.acai-hero::after {
-  background: linear-gradient(90deg,#510568 0%,rgba(81,5,104,.94) 23%,rgba(81,5,104,0) 52%);
+  background: linear-gradient(90deg,#510568 0%,#510568 36%,rgba(81,5,104,0) 60%);
 }
 .acai-hero .hero-copy {
   box-sizing: border-box;
@@ -641,4 +641,13 @@
   .acai-hero .hero-size-label {display:none}
   .acai-hero .hero-size-strip>div {min-height:42px;padding:4px}
   .acai-hero .hero-size-strip strong {font-size:11px}
+}
+
+@media(max-width:600px) and (max-height:740px) {
+ .acai-hero.acai-hero {padding-top:16px}
+ .acai-hero .hero-badge {margin-bottom:8px}
+ .acai-hero .hero-copy h1 {font-size:30px}
+ .acai-hero .handwritten {display:none}
+ .acai-hero .hero-size-strip {margin-top:158px}
+ .acai-hero .hero-size-strip::before {height:140px}
 }
