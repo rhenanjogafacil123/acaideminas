@@ -1,25 +1,2 @@
-import { ArrowRight, ShoppingBag } from "lucide-react";
-import "./Hero.css";
-
-export function Hero() {
-  return (
-    <section id="topo" className="minas-hero" aria-labelledby="minas-hero-title">
-      <div className="minas-hero-inner">
-        <div className="minas-hero-copy">
-          <p className="minas-hero-eyebrow">AÇAÍ DE MINAS</p>
-          <h1 id="minas-hero-title">Mais sabor em<br /><em>cada momento.</em></h1>
-          <p className="minas-hero-description">Açaí cremoso e seus complementos favoritos.<br />Uma pausa gostosa, do seu jeito.</p>
-          <a href="#cardapio" className="minas-hero-button">
-            <ShoppingBag size={20} />
-            Escolher meu açaí
-            <ArrowRight size={20} />
-          </a>
-          <p className="minas-hero-price">Seu favorito a partir de <strong>R$ 10,50</strong></p>
-        </div>
-        <div className="minas-hero-art">
-          <img src="/açai de mina HERO WEBP.webp" width={1719} height={915} alt="Açaí de Minas com banana, morango e granola" fetchPriority="high" />
-        </div>
-      </div>
-    </section>
-  );
-}
+import {ArrowDown,Heart} from "lucide-react";
+export function Hero(){return <><section id="topo" className="acai-hero"><div className="hero-copy"><p className="eyebrow">AÇAÍ DE MINAS</p><h1><em>Açaí de Minas.</em><br/>Mais sabor em<br/>cada momento!</h1><p>A pausa fica mais gostosa com açaí.<br/>Escolha seu favorito e deixe o resto com a gente.</p><a href="#cardapio" className="yellow-button">Quero meu açaí <ArrowDown size={19}/></a><span className="handwritten">Aqui tem mais vida! <Heart size={24}/></span></div><div className="hero-art"><img src="/acai-hero.webp" alt="Açaí de Minas com frutas e granola — imagem ilustrativa" fetchPriority="high"/><span className="art-note">Uma colherada<br/>de felicidade.</span></div></section><div className="flavor-strip" aria-hidden="true">AÇAÍ DE MINAS • MAIS SABOR • MAIS VIDA • AÇAÍ DE MINAS</div></>}
