@@ -1,3 +1,4 @@
+// Hero visual aprovada — manter o restante do site inalterado.
 import {
   ArrowRight,
   BookOpen,
