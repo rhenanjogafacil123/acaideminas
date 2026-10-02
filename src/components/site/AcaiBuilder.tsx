@@ -39,8 +39,8 @@ function layerStyle(pos: Exclude<Position,"todas">) {
 }
 
 export function AcaiBuilder(){
-  const [size,setSize]=useState(sizes[1]);
-  const [base,setBase]=useState(bases[0]);
+  const [size,setSize]=useState(sizes[1]!);
+  const [base,setBase]=useState(bases[0]!);
   const [category,setCategory]=useState<Category>("frutas");
   const [position,setPosition]=useState<Position>("meio");
   const [selected,setSelected]=useState<Array<{id:string;position:Position}>>([
