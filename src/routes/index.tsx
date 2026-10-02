@@ -3,6 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { CartProvider, useCart } from "@/hooks/useCart";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
+import { AcaiBuilder } from "@/components/site/AcaiBuilder";
 import { MenuSection } from "@/components/site/MenuSection";
 import { About } from "@/components/site/About";
 import { Contact } from "@/components/site/Contact";
@@ -22,7 +23,7 @@ export const Route=createFileRoute("/")({head:()=>({meta:[{title},{name:"descrip
 function PageContent(){
   const { open, count } = useCart();
   useEffect(()=>{if(count>0) void loadCartDrawer()},[count]);
-  return <><Header/><main><Hero/><MenuSection/><About/><Contact/></main><Footer/>{open&&<Suspense fallback={null}><LazyCartDrawer/></Suspense>}<MobileCartBar/></>;
+  return <><Header/><main><Hero/><AcaiBuilder/><MenuSection/><About/><Contact/></main><Footer/>{open&&<Suspense fallback={null}><LazyCartDrawer/></Suspense>}<MobileCartBar/></>;
 }
 
 function Index(){return <CartProvider><PageContent/></CartProvider>}
